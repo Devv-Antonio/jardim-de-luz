@@ -1,0 +1,22 @@
+# Compilação e caches locais
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+node_modules/
+elm-stuff/
+dist/
+frontend/public/elm.js
+.env
+.env.*
+!.env.example
+.tools/
+.npm-cache/
+
+# Saídas das ferramentas do professor
+entregas/
+avaliacoes/
+notas-360*.csv
+auditoria.json
+graphify-out/cache/

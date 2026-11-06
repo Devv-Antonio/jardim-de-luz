@@ -1,0 +1,21 @@
+[project]
+name = "jardim-de-luz-backend"
+version = "0.1.0"
+description = "Integração HTTP entre Elm e o jardim lógico em Prolog"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13.1",
+    "pytest>=8",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
