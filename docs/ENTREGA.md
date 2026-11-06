@@ -16,7 +16,7 @@ O sistema foi desenvolvido, compilado e testado. O Grupo 02 está identificado e
 - [ ] Atualizar a URL e a revisão entregue no relatório para o repositório correto do Classroom.
 - [ ] Executar instalação numa máquina limpa independente e guardar o resultado.
 - [x] Configurar integração contínua com testes, formatação, build e validador de entrega.
-- [x] Consolidar a revisão técnica em `v0.2.0`, com a mesma versão indicada no relatório, e manter somente essa tag no repositório pessoal.
+- [x] Consolidar a revisão técnica em `v0.2.1`, com a mesma versão indicada no relatório, e manter somente essa tag no repositório pessoal.
 - [ ] Enviar a revisão efetivamente entregue e sua tag ao repositório do Classroom.
 - [ ] Ensaiar o roteiro de 14 minutos. Todos falam e devem conseguir explicar Prolog e Elm.
 - [ ] Se optarem por slides, colocar o arquivo no repositório e ajustar as seções 1 e 12. Slides são opcionais; a demonstração é necessária.
@@ -46,7 +46,7 @@ make build
 make validar
 git status
 git push origin main
-git push origin v0.2.0
+git push origin v0.2.1
 ```
 
-Sem Make, use os comandos equivalentes do README. A tag `v0.2.0` identifica a versão consolidada. Não a recrie nem sobrescreva: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. As tags anteriores foram removidas do repositório pessoal conforme solicitação do responsável; seus commits permanecem no histórico.
+Sem Make, use os comandos equivalentes do README. A tag `v0.2.1` identifica a versão consolidada. Não a recrie nem sobrescreva: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. As tags anteriores foram removidas do repositório pessoal conforme solicitação do responsável; seus commits permanecem no histórico.

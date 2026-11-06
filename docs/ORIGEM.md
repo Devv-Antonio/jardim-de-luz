@@ -7,7 +7,7 @@ Revisão consultada: `8454eea9bd08b9ef5e3b0538532d18a23174a93c` (09/10/2026).
 | Material | Tratamento |
 |---|---|
 | `AVALIACAO.md`, `scripts/` e `avaliacao-360/TEMPLATE.md` | Copiados do professor, sem alteração de critérios ou validador |
-| `RELATORIO.md` | Mesma estrutura de 13 seções; conteúdo técnico preenchido para o jardim e dados pessoais pendentes |
+| `RELATORIO.md` | Mesma estrutura de 13 seções; conteúdo técnico, identificação do Grupo 02 e divisão de responsabilidades preenchidos |
 | Backend FastAPI e projeto uv | Estrutura adaptada; domínio e contratos substituídos; Janus removido em favor de processo local com JSON |
 | Frontend Elm/Vite e pacotes Elm | Estrutura de aplicação e bibliotecas-base reaproveitadas |
 | `Garden.elm`, `Api.elm`, `Main.elm`, CSS, `garden.pl`, `bridge.pl` e testes | Implementados com uso intensivo de Codex nesta sessão |

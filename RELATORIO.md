@@ -14,7 +14,7 @@
 - **Nome do projeto:** Jardim de Luz
 - **Nome do grupo:** Grupo 02
 - **Repositório:** https://github.com/Devv-Antonio/jardim-de-luz
-- **Commit ou tag entregue:** v0.2.0
+- **Commit ou tag entregue:** v0.2.1
 - **Ponto de partida:** remix original
 - **Slides da apresentação oral:** não há
 
