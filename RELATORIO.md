@@ -239,6 +239,8 @@ Verificações locais em 06/11/2026:
 | Dependências | `npm audit`: zero vulnerabilidades | após remover plugins não usados e atualizar Vite; resultado é datado |
 | Navegador | percurso real verificado | conflito, desfazer, dica forçada, solução com auxílio, reinício e preservação da pista |
 
+A métrica original do professor contabilizou 149 linhas não vazias em Prolog, 598 em Elm e 129 em Python (14,7%), excluindo scripts do professor conforme a regra da ferramenta. Isso confirma que a camada Python permaneceu proporcionalmente pequena; contagem de linhas não substitui a avaliação do código.
+
 As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg` vieram da aplicação em execução, não de um mockup. A interface foi inspecionada no viewport estreito padrão e em 1280×1100. O roteiro manual distingue cenários já verificados dos que o grupo deve repetir.
 
 **Validador da entrega:** o relatório ainda contém campos acadêmicos entre colchetes e contribuições pendentes, a pedido do responsável, que vai preenchê-los depois. O validador deve apontá-los; esta versão não é uma entrega acadêmica final. A revisão de identificação, autoria real, participação na apresentação e nomes completos depende do grupo. Os scripts originais de validação não foram enfraquecidos.
@@ -316,3 +318,4 @@ Reflexão técnica preparada com IA para revisão do grupo, não relato de exper
 No Elm, o ganho central está nas fronteiras e na representação das fases: `Waiting Operation Game` preserva os dados durante o efeito e `Result` obriga a decidir o que fazer quando ele falha. O histórico é uma lista de valores anteriores, sem a necessidade de desfazer mutações. A compilação confirmou que os módulos e suas assinaturas estão coerentes; não houve uma refatoração guiada por erro de tipos registrada nesta sessão, então não reivindicamos essa evidência. Ao adicionar uma nova origem de célula, o `case` exaustivo de `Garden.value` seria um ponto em que o compilador exigiria atualização; o ramo genérico em `update` não oferece essa mesma garantia para toda nova combinação de mensagem e estado.
 
 A diferença prática é que o Prolog descreve o espaço de soluções possíveis, enquanto o Elm transforma um estado conhecido em outro e descreve os efeitos a executar. Python só transporta dados entre essas duas responsabilidades. O grupo ainda precisa acrescentar suas próprias observações, após estudar e modificar o projeto, para transformar esta análise técnica em reflexão de aprendizagem efetiva.
+
