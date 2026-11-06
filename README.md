@@ -6,7 +6,7 @@ Um quebra-cabeça de posicionamento e energia, construído para o trabalho final
 
 ![Interface real do Jardim de Luz](docs/captura.jpg)
 
-> **Situação da entrega:** implementação e testes disponíveis; identificação acadêmica, contribuições e avaliação 360 ainda precisam da revisão do grupo. O repositório pessoal não substitui a atividade do GitHub Classroom.
+> **Situação da entrega:** implementação e testes disponíveis; identificação dos seis integrantes preenchida; nome do grupo, contribuições e avaliação 360 ainda precisam da revisão do grupo. O repositório pessoal não substitui a atividade do GitHub Classroom.
 
 [Como jogar](#como-jogar) · [Executar](#executar) · [Testes](#testes) · [Relatório](RELATORIO.md) · [Guia de estudo](docs/GUIA-DE-ESTUDO.md) · [Checklist de entrega](docs/ENTREGA.md)
 
@@ -77,7 +77,7 @@ cd frontend
 npm run dev
 ```
 
-Acesse **http://localhost:5173**. A API interativa está em **http://localhost:8000/docs**. Se o repositório estiver privado, faça o login no GitHub antes de clonar.
+Acesse **http://localhost:5173**. A API interativa está em **http://localhost:8000/docs**. O repositório é público e pode ser clonado sem autenticação.
 
 Com GNU Make instalado, os atalhos equivalentes são `make install` e `make dev`. Nenhum Make é necessário no Windows.
 
@@ -163,6 +163,19 @@ avaliacao-360/TEMPLATE.md modelo individual original, preservado
 scripts/                  ferramentas originais do professor
 ```
 
+## Equipe
+
+Turma das **14h**. As matrículas estão na seção 1 do [relatório](RELATORIO.md).
+
+| Integrante | GitHub |
+|---|---|
+| Miguel Arthur Oliveira de Lima | [@zlimaz](https://github.com/zlimaz) |
+| Mariiana Siqueira Neris | [@Maryyscreuza](https://github.com/Maryyscreuza) |
+| Antônio Lucas De Araujo Lima | [@Devv-Antonio](https://github.com/Devv-Antonio) |
+| Fábio Santos Araújo | [@fabiofonteles1](https://github.com/fabiofonteles1) |
+| João Pedro Silva Sousa | [@JoaoPedrooSS](https://github.com/JoaoPedrooSS) |
+| Daniel Ferreira Santos Rabelo | [@DanielFsR](https://github.com/DanielFsR) |
+
 ## Referências acadêmicas da UnB
 
 - [Enpyre: uma plataforma web interativa e lúdica para o ensino de Python](https://bdm.unb.br/handle/10483/39155), de Coutinho e Ribeiro (2023).
@@ -176,7 +189,7 @@ A faixa proposta é **remix original**: posicionamento de N-rainhas combinado à
 
 Este projeto foi desenvolvido com **auxílio de IA (Codex)**. O escopo dessa participação está detalhado na seção 11 do relatório, conforme a classificação exigida pelo professor. O template e as regras de avaliação vêm de [fabiommendes/paradigmas-trabalho-final](https://github.com/fabiommendes/paradigmas-trabalho-final), revisão `8454eea9bd08b9ef5e3b0538532d18a23174a93c`. A origem, os arquivos reaproveitados e o que foi reescrito estão declarados na seção 11 do relatório e em [docs/ORIGEM.md](docs/ORIGEM.md). A arquitetura foi adaptada; o domínio Sudoku foi substituído.
 
-**Antes da entrega:** preencher os dados acadêmicos reais, revisar contribuições, estudar o código, ensaiar os 15 minutos, publicar no Classroom e cada aluno entregar sua própria avaliação 360. Execute `uv run scripts/validar_entrega.py` e corrija todos os erros. O relatório conserva campos pendentes intencionais enquanto faltam os dados do grupo; não os substitua por informações fictícias.
+**Antes da entrega:** definir o nome do grupo, revisar contribuições, estudar o código, ensaiar os 15 minutos, publicar no Classroom e cada aluno entregar sua própria avaliação 360. Execute `uv run scripts/validar_entrega.py` e corrija todos os erros. O relatório conserva campos pendentes para o nome do grupo e as contribuições reais; não os substitua por informações fictícias.
 
 Prazo sem desconto: **18/11/2026, 23h59 de Brasília**. Os lotes de 23/11 e 30/11 têm fatores 0,90 e 0,75 em G. Avaliação 360 até **30/11/2026, 23h59**. Consulte [AVALIACAO.md](AVALIACAO.md) para todas as regras.
 

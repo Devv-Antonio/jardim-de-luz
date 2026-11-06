@@ -4,21 +4,21 @@
 
 | Nome completo | Matrícula | Turma (14h/16h) | Usuário GitHub |
 |---|---|---|---|
-| Miguel Arthur | [informar matrícula de Miguel] | 14h | [informar GitHub de Miguel] |
-| Mary | [informar matrícula de Mary] | 14h | [informar GitHub de Mary] |
-| Antonio Lucas de Araújo Lima | [informar matrícula de Antonio] | 14h | @Devv-Antonio |
-| Fábio Santos | [informar matrícula de Fábio] | 14h | [informar GitHub de Fábio] |
-| João Pedro Silva Sousa | [informar matrícula de João] | 14h | [informar GitHub de João] |
-| Daniel Ferreira | [informar matrícula de Daniel] | 14h | [informar GitHub de Daniel] |
+| Miguel Arthur Oliveira de Lima | 211062320 | 14h | @zlimaz |
+| Mariiana Siqueira Neris | 211062796 | 14h | @Maryyscreuza |
+| Antônio Lucas De Araujo Lima | 241025597 | 14h | @Devv-Antonio |
+| Fábio Santos Araújo | 222022082 | 14h | @fabiofonteles1 |
+| João Pedro Silva Sousa | 222006258 | 14h | @JoaoPedrooSS |
+| Daniel Ferreira Santos Rabelo | 222006632 | 14h | @DanielFsR |
 
 - **Nome do projeto:** Jardim de Luz
 - **Nome do grupo:** [definir nome único do grupo]
 - **Repositório:** https://github.com/Devv-Antonio/jardim-de-luz
-- **Commit ou tag entregue:** v0.1.1
+- **Commit ou tag entregue:** v0.1.2
 - **Ponto de partida:** remix original
 - **Slides da apresentação oral:** não há
 
-Os nomes acima reproduzem a lista enviada por Antonio; precisam de confirmação da grafia e do nome completo, especialmente Miguel e Mary. A posição 5 veio vazia e não foi tratada como integrante. A tag identifica esta versão de desenvolvimento, ainda com pendências acadêmicas. Depois de preencher e revisar tudo, atualizar a revisão entregue e criar uma nova tag no repositório do Classroom.
+Os dados dos seis integrantes foram atualizados com a lista confirmada pelo responsável. Todos são da turma das 14h. A tag identifica esta versão de desenvolvimento, ainda com pendências acadêmicas. Depois de preencher e revisar tudo, atualizar a revisão entregue e criar uma nova tag no repositório do Classroom.
 
 ## 2. Resumo
 
@@ -243,7 +243,7 @@ A métrica original do professor contabilizou 149 linhas não vazias em Prolog, 
 
 As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg` vieram da aplicação em execução, não de um mockup. A interface foi inspecionada no viewport estreito padrão e em 1280×1100. O roteiro manual distingue cenários já verificados dos que o grupo deve repetir.
 
-**Validador da entrega:** o relatório ainda contém campos acadêmicos entre colchetes e contribuições pendentes, a pedido do responsável, que vai preenchê-los depois. O validador deve apontá-los; esta versão não é uma entrega acadêmica final. A revisão de identificação, autoria real, participação na apresentação e nomes completos depende do grupo. Os scripts originais de validação não foram enfraquecidos.
+**Validador da entrega:** a identificação dos seis integrantes está preenchida. Permanecem pendentes o nome do grupo e as contribuições reais de cada integrante, que precisam ser confirmados pelo grupo. O validador deve apontá-los; esta versão não é uma entrega acadêmica final. A revisão de autoria real e da participação na apresentação depende do grupo. Os scripts originais de validação não foram enfraquecidos.
 
 ## 9. Limitações e problemas conhecidos
 
@@ -258,16 +258,16 @@ As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg`
 
 ## 10. Contribuição de cada integrante
 
-Esta tabela deve registrar trabalho efetivo, acordado por todos, depois da revisão e estudo. Não foi fabricado histórico de autoria. A implementação inicial e a documentação foram geradas com Codex a pedido de Antonio; isso não prova contribuição técnica individual dos colegas.
+Esta tabela deve registrar trabalho efetivo, acordado por todos, depois da revisão e estudo. Não foi fabricado histórico de autoria. A implementação inicial e a documentação foram geradas com Codex a pedido de Antônio; isso não prova contribuição técnica individual dos colegas.
 
 | Integrante | Principais contribuições |
 |---|---|
-| Miguel Arthur | [informar contribuições reais de Miguel] |
-| Mary | [informar contribuições reais de Mary] |
-| Antonio Lucas de Araújo Lima | Solicitou e definiu a orientação do projeto com IA; informou a equipe e autorizou o repositório. [completar revisão e trabalho técnico efetivamente realizado] |
-| Fábio Santos | [informar contribuições reais de Fábio] |
+| Miguel Arthur Oliveira de Lima | [informar contribuições reais de Miguel] |
+| Mariiana Siqueira Neris | [informar contribuições reais de Mary] |
+| Antônio Lucas De Araujo Lima | Solicitou e definiu a orientação do projeto com IA; informou a equipe e autorizou o repositório. [completar revisão e trabalho técnico efetivamente realizado] |
+| Fábio Santos Araújo | [informar contribuições reais de Fábio] |
 | João Pedro Silva Sousa | [informar contribuições reais de João] |
-| Daniel Ferreira | [informar contribuições reais de Daniel] |
+| Daniel Ferreira Santos Rabelo | [informar contribuições reais de Daniel] |
 
 Cada integrante deverá entregar individualmente `avaliacao-360/<matricula>.md` no seu repositório privado do Classroom. O template foi preservado; nenhuma nota ou distribuição de esforço foi inventada nem publicada neste repositório do grupo.
 
@@ -309,12 +309,12 @@ A rubrica desloca o ajuste de escopo em −0,5 com IA intensiva. Para a faixa pr
 
 | Parte | Duração | Quem apresenta |
 |---|:---:|---|
-| Contexto, objetivo e regras | 2 min | Miguel Arthur |
-| Demonstração: jogar, conflito e desfazer | 2 min | Mary |
-| Demonstração: dica e solução | 2 min | Antonio Lucas de Araújo Lima |
-| Código Prolog: CLP(FD), energia e geração | 3 min | Fábio Santos |
+| Contexto, objetivo e regras | 2 min | Miguel Arthur Oliveira de Lima |
+| Demonstração: jogar, conflito e desfazer | 2 min | Mariiana Siqueira Neris |
+| Demonstração: dica e solução | 2 min | Antônio Lucas De Araujo Lima |
+| Código Prolog: CLP(FD), energia e geração | 3 min | Fábio Santos Araújo |
 | Código Elm: tipos, update, HTTP e histórico | 3 min | João Pedro Silva Sousa |
-| Testes, limitações e aprendizados | 2 min | Daniel Ferreira |
+| Testes, limitações e aprendizados | 2 min | Daniel Ferreira Santos Rabelo |
 
 Todos devem estudar ambos os paradigmas, pois o professor pode pedir a qualquer integrante que explique um trecho. Se a equipe mudar, atualizar as tabelas das seções 1, 10 e 12 e as avaliações individuais de forma coerente.
 

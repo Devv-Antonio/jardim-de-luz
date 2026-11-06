@@ -4,12 +4,12 @@ Um minuto fica de margem para transições. Slides são opcionais e não foram c
 
 | Tempo acumulado | Pessoa | Mostrar |
 |---|---|---|
-| 0:00–2:00 | Miguel Arthur | Problema, regras e a regra de energia que compõe o remix |
-| 2:00–4:00 | Mary | Jogo funcionando, clicar, mover, conflito e desfazer |
-| 4:00–6:00 | Antonio Lucas de Araújo Lima | Dica com explicação, solução, soma e reinício |
-| 6:00–9:00 | Fábio Santos | `garden.pl`: coluna por linha, diagonais, `element`, soma, enumeração e unicidade |
+| 0:00–2:00 | Miguel Arthur Oliveira de Lima | Problema, regras e a regra de energia que compõe o remix |
+| 2:00–4:00 | Mariiana Siqueira Neris | Jogo funcionando, clicar, mover, conflito e desfazer |
+| 4:00–6:00 | Antônio Lucas De Araujo Lima | Dica com explicação, solução, soma e reinício |
+| 6:00–9:00 | Fábio Santos Araújo | `garden.pl`: coluna por linha, diagonais, `element`, soma, enumeração e unicidade |
 | 9:00–12:00 | João Pedro Silva Sousa | `Main.elm`, `Garden.elm`, `Api.elm`: tipos, fases, Cmd/Result e histórico |
-| 12:00–14:00 | Daniel Ferreira | Testes, limites, origem, IA intensiva e aprendizado real do grupo |
+| 12:00–14:00 | Daniel Ferreira Santos Rabelo | Testes, limites, origem, IA intensiva e aprendizado real do grupo |
 
 ## Preparação antes de começar
 

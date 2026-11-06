@@ -2,18 +2,16 @@
 
 ## Estado atual
 
-O sistema foi desenvolvido, compilado e testado. Esta versão **ainda não é a entrega acadêmica final**, porque os dados pessoais e as contribuições dependem do grupo. O validador original deve continuar rejeitando campos pendentes.
+O sistema foi desenvolvido, compilado e testado. Esta versão **ainda não é a entrega acadêmica final**, porque o nome do grupo e as contribuições reais ainda dependem de confirmação. Os dados de identificação dos seis integrantes já foram preenchidos. O validador original deve continuar rejeitando campos pendentes.
 
 ## O que vocês precisam completar
 
-- [ ] Confirmar o nome completo e a grafia de todos, especialmente Miguel Arthur e Mary.
-- [ ] Inserir as seis matrículas e os cinco usuários GitHub ainda ausentes.
-- [ ] Confirmar que a posição 5 vazia da lista recebida não representa um sétimo integrante.
+- [x] Atualizar nomes completos, matrículas e usuários GitHub dos seis integrantes com a lista confirmada pelo responsável.
 - [ ] Escolher um nome de grupo único nas turmas. Todos os integrantes informados são da turma das 14h.
 - [ ] Revisar o projeto, executar localmente e registrar contribuições verdadeiras na seção 10, coerentes com os commits.
 - [ ] Manter a declaração de IA **intensivo** e a origem do template. Não declarar pode anular o trabalho.
 - [ ] Substituir a análise técnica da seção 13 por reflexões próprias do grupo, apoiadas no código, sem inventar experiências.
-- [ ] Aceitar a atividade **de grupo** no GitHub Classroom e colocar lá código e relatório. Repositório pessoal privado não é submissão automática.
+- [ ] Aceitar a atividade **de grupo** no GitHub Classroom e colocar lá código e relatório. A publicação do repositório pessoal não é submissão automática.
 - [ ] Atualizar a URL e a revisão entregue no relatório para o repositório correto do Classroom.
 - [ ] Executar instalação numa máquina limpa independente e guardar o resultado.
 - [ ] Rodar testes, formatação, build e `uv run scripts/validar_entrega.py` sem erros.
