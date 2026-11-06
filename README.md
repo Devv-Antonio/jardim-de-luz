@@ -6,7 +6,7 @@ Um quebra-cabeça de posicionamento e energia, construído para o trabalho final
 
 ![Interface real do Jardim de Luz](docs/captura.jpg)
 
-> **Situação da entrega:** implementação e testes disponíveis; identificação dos seis integrantes preenchida; nome do grupo, contribuições e avaliação 360 ainda precisam da revisão do grupo. O repositório pessoal não substitui a atividade do GitHub Classroom.
+> **Situação da entrega:** implementação e testes disponíveis; Grupo 02 identificado, responsabilidades definidas e documentação preenchida. A execução das atribuições, a revisão do grupo, a apresentação e a avaliação 360 devem ser confirmadas pelos integrantes. O repositório pessoal não substitui a atividade do GitHub Classroom.
 
 [Como jogar](#como-jogar) · [Executar](#executar) · [Testes](#testes) · [Relatório](RELATORIO.md) · [Guia de estudo](docs/GUIA-DE-ESTUDO.md) · [Checklist de entrega](docs/ENTREGA.md)
 
@@ -116,7 +116,7 @@ npm run build
 npm audit
 ```
 
-Ou `make test` e `make build`. A integração contínua em `.github/workflows/ci.yml` repete instalação, testes e build em Ubuntu a cada push/PR. Consulte o resultado da execução no GitHub; a existência do workflow não é evidência de uma execução bem-sucedida.
+Ou `make test` e `make build`. A integração contínua em `.github/workflows/ci.yml` repete instalação, testes, build e validação documental em Ubuntu nos pushes para main e nos pull requests. Consulte o resultado da execução no GitHub; a existência do workflow não é evidência de uma execução bem-sucedida.
 
 | Camada | Verificações locais |
 |---|---|
@@ -165,12 +165,12 @@ scripts/                  ferramentas originais do professor
 
 ## Equipe
 
-Turma das **14h**. As matrículas estão na seção 1 do [relatório](RELATORIO.md).
+**Grupo 02** · Turma das **14h**. As matrículas estão na seção 1 do [relatório](RELATORIO.md).
 
 | Integrante | GitHub |
 |---|---|
 | Miguel Arthur Oliveira de Lima | [@zlimaz](https://github.com/zlimaz) |
-| Mariiana Siqueira Neris | [@Maryyscreuza](https://github.com/Maryyscreuza) |
+| Mariana Siqueira Neris | [@Maryyscreuza](https://github.com/Maryyscreuza) |
 | Antônio Lucas De Araujo Lima | [@Devv-Antonio](https://github.com/Devv-Antonio) |
 | Fábio Santos Araújo | [@fabiofonteles1](https://github.com/fabiofonteles1) |
 | João Pedro Silva Sousa | [@JoaoPedrooSS](https://github.com/JoaoPedrooSS) |
@@ -189,7 +189,7 @@ A faixa proposta é **remix original**: posicionamento de N-rainhas combinado à
 
 Este projeto foi desenvolvido com **auxílio de IA (Codex)**. O escopo dessa participação está detalhado na seção 11 do relatório, conforme a classificação exigida pelo professor. O template e as regras de avaliação vêm de [fabiommendes/paradigmas-trabalho-final](https://github.com/fabiommendes/paradigmas-trabalho-final), revisão `8454eea9bd08b9ef5e3b0538532d18a23174a93c`. A origem, os arquivos reaproveitados e o que foi reescrito estão declarados na seção 11 do relatório e em [docs/ORIGEM.md](docs/ORIGEM.md). A arquitetura foi adaptada; o domínio Sudoku foi substituído.
 
-**Antes da entrega:** definir o nome do grupo, revisar contribuições, estudar o código, ensaiar os 15 minutos, publicar no Classroom e cada aluno entregar sua própria avaliação 360. Execute `uv run scripts/validar_entrega.py` e corrija todos os erros. O relatório conserva campos pendentes para o nome do grupo e as contribuições reais; não os substitua por informações fictícias.
+**Antes da entrega:** confirmar a execução das responsabilidades e revisar as contribuições, estudar o código, ensaiar os 15 minutos, publicar no Classroom e cada aluno entregar sua própria avaliação 360. Execute `uv run scripts/validar_entrega.py` e corrija todos os erros. A seção 10 registra a divisão de responsabilidades definida pelo grupo; ela deve ser confrontada com o trabalho efetivamente realizado antes da submissão.
 
 Prazo sem desconto: **18/11/2026, 23h59 de Brasília**. Os lotes de 23/11 e 30/11 têm fatores 0,90 e 0,75 em G. Avaliação 360 até **30/11/2026, 23h59**. Consulte [AVALIACAO.md](AVALIACAO.md) para todas as regras.
 

@@ -2,20 +2,22 @@
 
 ## Estado atual
 
-O sistema foi desenvolvido, compilado e testado. Esta versão **ainda não é a entrega acadêmica final**, porque o nome do grupo e as contribuições reais ainda dependem de confirmação. Os dados de identificação dos seis integrantes já foram preenchidos. O validador original deve continuar rejeitando campos pendentes.
+O sistema foi desenvolvido, compilado e testado. O Grupo 02 está identificado e a divisão de responsabilidades foi registrada. A configuração técnica e a validação de forma não substituem a confirmação do trabalho realizado por cada integrante, a revisão humana, a apresentação e a entrega no Classroom.
 
 ## O que vocês precisam completar
 
 - [x] Atualizar nomes completos, matrículas e usuários GitHub dos seis integrantes com a lista confirmada pelo responsável.
-- [ ] Escolher um nome de grupo único nas turmas. Todos os integrantes informados são da turma das 14h.
+- [x] Definir o nome Grupo 02, conforme informado pelo responsável. Todos os integrantes são da turma das 14h.
+- [x] Registrar a divisão de responsabilidades de desenvolvimento e revisão na seção 10.
 - [ ] Revisar o projeto, executar localmente e registrar contribuições verdadeiras na seção 10, coerentes com os commits.
-- [ ] Manter a declaração de IA **intensivo** e a origem do template. Não declarar pode anular o trabalho.
+- [x] Manter a declaração de IA **intensivo** e a origem do template. Não declarar pode anular o trabalho.
 - [ ] Substituir a análise técnica da seção 13 por reflexões próprias do grupo, apoiadas no código, sem inventar experiências.
 - [ ] Aceitar a atividade **de grupo** no GitHub Classroom e colocar lá código e relatório. A publicação do repositório pessoal não é submissão automática.
 - [ ] Atualizar a URL e a revisão entregue no relatório para o repositório correto do Classroom.
 - [ ] Executar instalação numa máquina limpa independente e guardar o resultado.
-- [ ] Rodar testes, formatação, build e `uv run scripts/validar_entrega.py` sem erros.
-- [ ] Criar uma tag final depois do commit de revisão, como `v1.0.0`, atualizar a revisão no relatório e enviar a tag ao Classroom.
+- [x] Configurar integração contínua com testes, formatação, build e validador de entrega.
+- [x] Consolidar a revisão técnica em `v0.2.0`, com a mesma versão indicada no relatório, e manter somente essa tag no repositório pessoal.
+- [ ] Enviar a revisão efetivamente entregue e sua tag ao repositório do Classroom.
 - [ ] Ensaiar o roteiro de 14 minutos. Todos falam e devem conseguir explicar Prolog e Elm.
 - [ ] Se optarem por slides, colocar o arquivo no repositório e ajustar as seções 1 e 12. Slides são opcionais; a demonstração é necessária.
 - [ ] Cada pessoa: copiar `avaliacao-360/TEMPLATE.md` para `<sua-matricula>.md`, preencher honestamente, validar e enviar no **seu repositório individual** do Classroom.
@@ -43,9 +45,8 @@ make test
 make build
 make validar
 git status
-git tag v1.0.0
 git push origin main
-git push origin v1.0.0
+git push origin v0.2.0
 ```
 
-Sem Make, use os comandos equivalentes do README. Antes de criar a tag, o relatório deve apontar para o nome escolhido. Não recrie nem sobrescreva uma tag já publicada; use outra versão para cada revisão.
+Sem Make, use os comandos equivalentes do README. A tag `v0.2.0` identifica a versão consolidada. Não a recrie nem sobrescreva: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. As tags anteriores foram removidas do repositório pessoal conforme solicitação do responsável; seus commits permanecem no histórico.

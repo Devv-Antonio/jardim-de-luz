@@ -1,11 +1,11 @@
-# Apresentação — proposta de 14 minutos
+# Grupo 02 — apresentação em 14 minutos
 
 Um minuto fica de margem para transições. Slides são opcionais e não foram criados: o sistema e o editor são o material da demonstração. Os nomes são os informados pelo responsável; esta divisão precisa ser aceita e ensaiada pelo grupo.
 
 | Tempo acumulado | Pessoa | Mostrar |
 |---|---|---|
 | 0:00–2:00 | Miguel Arthur Oliveira de Lima | Problema, regras e a regra de energia que compõe o remix |
-| 2:00–4:00 | Mariiana Siqueira Neris | Jogo funcionando, clicar, mover, conflito e desfazer |
+| 2:00–4:00 | Mariana Siqueira Neris | Jogo funcionando, clicar, mover, conflito e desfazer |
 | 4:00–6:00 | Antônio Lucas De Araujo Lima | Dica com explicação, solução, soma e reinício |
 | 6:00–9:00 | Fábio Santos Araújo | `garden.pl`: coluna por linha, diagonais, `element`, soma, enumeração e unicidade |
 | 9:00–12:00 | João Pedro Silva Sousa | `Main.elm`, `Garden.elm`, `Api.elm`: tipos, fases, Cmd/Result e histórico |

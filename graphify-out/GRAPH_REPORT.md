@@ -1,17 +1,17 @@
 # Graph Report - jardim-de-luz  (2026-11-06)
 
 ## Corpus Check
-- 28 files · ~25,588 words
+- 28 files · ~25,707 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 13 file(s) not represented in the graph (top: (none) 4, .elm 4, .pl 3)
 
 ## Summary
-- 420 nodes · 848 edges · 18 communities (16 shown, 2 thin omitted)
+- 424 nodes · 852 edges · 25 communities (23 shown, 2 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 54 edges (avg confidence: 0.86)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `308e37d2`
+- Built from commit: `dbc06f59`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,6 +33,13 @@
 - run.cjs
 - Apresentação — proposta de 14 minutos
 - jardim-de-luz-backend
+- Jardim de Luz
+- README.md
+- Guia de estudo — entenda antes de apresentar
+- Checklist de entrega
+- Critérios de avaliação do trabalho final
+- Teste manual e evidências
+- Executar
 
 ## God Nodes (most connected - your core abstractions)
 1. `Document` - 34 edges
@@ -61,7 +68,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (18 total, 2 thin omitted)
+## Communities (25 total, 2 thin omitted)
 
 ### Community 0 - "validar_entrega.py"
 Cohesion: 0.09
@@ -69,11 +76,11 @@ Nodes (40): check_ai_field(), check_choice_field(), check_comments(), check_comm
 
 ### Community 1 - "metricas.py"
 Cohesion: 0.11
-Nodes (24): checkout_declared(), declared_revision(), gh_classroom(), main(), repositories(), run(), write_lots(), commits() (+16 more)
+Nodes (23): checkout_declared(), declared_revision(), gh_classroom(), main(), repositories(), run(), write_lots(), commits() (+15 more)
 
 ### Community 2 - "✦ Jardim de Luz"
-Cohesion: 0.05
-Nodes (36): Checklist de entrega, Comandos finais, Estado atual, O que vocês precisam completar, Prazos e rubrica, 1. Experimente o domínio sem servidor, 2. Leia garden.pl nesta ordem, 3. Leia Garden.elm sem olhar a tela (+28 more)
+Cohesion: 0.18
+Nodes (11): API, Como jogar, Entrega e autoria, Equipe, ✦ Jardim de Luz, Limites assumidos, Mapa do projeto, Por que Prolog + Elm? (+3 more)
 
 ### Community 3 - "rubrica.py"
 Cohesion: 0.09
@@ -84,8 +91,8 @@ Cohesion: 0.13
 Nodes (19): aggregate(), find_files(), fmt(), grade_for(), grade_value(), individual_grade(), main(), match_member() (+11 more)
 
 ### Community 5 - "main.py"
-Cohesion: 0.06
-Nodes (35): generate(), GenerateRequest, Hint, hint(), PlayRequest, Puzzle, Request, Solution (+27 more)
+Cohesion: 0.11
+Nodes (16): generate(), GenerateRequest, Hint, hint(), PlayRequest, Puzzle, Request, Solution (+8 more)
 
 ### Community 6 - "package.json"
 Cohesion: 0.10
@@ -96,20 +103,20 @@ Cohesion: 0.10
 Nodes (19): dependencies, direct, indirect, elm/browser, elm/core, elm/html, elm/http, elm/json (+11 more)
 
 ### Community 8 - "1. Nota do grupo (G)"
-Cohesion: 0.18
-Nodes (10): 1.1 Níveis de cada critério, 1.2 Métricas, 1.3 Faltas que invalidam o trabalho, 1.4 Penalidades, 1.5 Escopo, originalidade e uso de IA, 1. Nota do grupo (G), 2.1 Verificação de compreensão, 2. Nota individual (I) (+2 more)
+Cohesion: 0.33
+Nodes (6): 1.1 Níveis de cada critério, 1.2 Métricas, 1.3 Faltas que invalidam o trabalho, 1.4 Penalidades, 1.5 Escopo, originalidade e uso de IA, 1. Nota do grupo (G)
 
 ### Community 9 - "auditar.py"
-Cohesion: 0.27
-Nodes (10): Finding, is_comment(), main(), project_files(), repositories(), scan_manifests(), scan_repo(), scan_text() (+2 more)
+Cohesion: 0.24
+Nodes (11): Finding, is_comment(), main(), project_files(), repositories(), scan_manifests(), scan_repo(), scan_text() (+3 more)
 
 ### Community 10 - "test_api.py"
 Cohesion: 0.21
 Nodes (8): puzzle(), test_complete_hint(), test_forced_hint(), test_generate_unique(), test_impossible(), test_malformed(), test_possible_hint(), test_solve()
 
 ### Community 11 - "with"
-Cohesion: 0.13
-Nodes (14): jobs, verificar, name, on, name, run, uses, with (+6 more)
+Cohesion: 0.11
+Nodes (18): jobs, verificar, name, on, pull_request, push, branches, name (+10 more)
 
 ### Community 12 - "Avaliação 360 graus"
 Cohesion: 0.15
@@ -125,27 +132,55 @@ Nodes (6): app, assert, fs, sandbox, timer, vm
 
 ### Community 15 - "Apresentação — proposta de 14 minutos"
 Cohesion: 0.33
-Nodes (5): Apresentação — proposta de 14 minutos, Código para explicar, Limitações que precisam ser ditas, Preparação antes de começar, Sequência de demonstração
+Nodes (5): Código para explicar, Grupo 02 — apresentação em 14 minutos, Limitações que precisam ser ditas, Preparação antes de começar, Sequência de demonstração
+
+### Community 18 - "Jardim de Luz"
+Cohesion: 0.11
+Nodes (19): 10. Contribuição de cada integrante, 11. Fontes, código de terceiros e uso de IA, 12. Apresentação oral, 13. Reflexão sobre os paradigmas, 1. Identificação, 2. Resumo, 3. Como executar, 4. Arquitetura (+11 more)
+
+### Community 19 - "README.md"
+Cohesion: 0.20
+Nodes (5): Origem e adaptações, 1. Jogos e interação no ensino de programação, 2. Fundamentos da programação funcional, Como essas referências entram no projeto, Referências acadêmicas da UnB
+
+### Community 20 - "Guia de estudo — entenda antes de apresentar"
+Cohesion: 0.22
+Nodes (9): 1. Experimente o domínio sem servidor, 2. Leia garden.pl nesta ordem, 3. Leia Garden.elm sem olhar a tela, 4. Siga uma mensagem em Main.elm, 5. Confira as fronteiras em Api.elm e no Python, 6. Exercícios de compreensão, Guia de estudo — entenda antes de apresentar, Leitura complementar da UnB (+1 more)
+
+### Community 21 - "Checklist de entrega"
+Cohesion: 0.33
+Nodes (5): Checklist de entrega, Comandos finais, Estado atual, O que vocês precisam completar, Prazos e rubrica
+
+### Community 22 - "Critérios de avaliação do trabalho final"
+Cohesion: 0.40
+Nodes (4): 2.1 Verificação de compreensão, 2. Nota individual (I), 3. Prazos, Critérios de avaliação do trabalho final
+
+### Community 23 - "Teste manual e evidências"
+Cohesion: 0.50
+Nodes (3): Percurso observado, Repetir pelo grupo antes da entrega, Teste manual e evidências
+
+### Community 24 - "Executar"
+Cohesion: 0.67
+Nodes (3): Build de produção local, Executar, Requisitos
 
 ## Knowledge Gaps
 - **1 isolated node(s):** `jardim-de-luz-backend`
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 190 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 192 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Jardim de Luz` connect `main.py` to `✦ Jardim de Luz`?**
-  _High betweenness centrality (0.203) - this node is a cross-community bridge._
+- **Why does `Jardim de Luz` connect `Jardim de Luz` to `README.md`?**
+  _High betweenness centrality (0.199) - this node is a cross-community bridge._
 - **What connects `jardim-de-luz-backend` to the rest of the system?**
   _1 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `validar_entrega.py` be split into smaller, more focused modules?**
   _Cohesion score 0.09399585921325052 - nodes in this community are weakly interconnected._
+- **Why does `Puzzle` connect `main.py` to `Jardim de Luz`?**
+  _High betweenness centrality (0.189) - this node is a cross-community bridge._
 - **Should `metricas.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.1072463768115942 - nodes in this community are weakly interconnected._
-- **Should `✦ Jardim de Luz` be split into smaller, more focused modules?**
-  _Cohesion score 0.046511627906976744 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1109936575052854 - nodes in this community are weakly interconnected._
+- **Why does `9. Limitações e problemas conhecidos` connect `Jardim de Luz` to `main.py`?**
+  _High betweenness centrality (0.188) - this node is a cross-community bridge._
 - **Should `rubrica.py` be split into smaller, more focused modules?**
   _Cohesion score 0.09411764705882353 - nodes in this community are weakly interconnected._
-- **Should `agregar_360.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.13012477718360071 - nodes in this community are weakly interconnected._

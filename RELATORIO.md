@@ -5,20 +5,20 @@
 | Nome completo | Matrícula | Turma (14h/16h) | Usuário GitHub |
 |---|---|---|---|
 | Miguel Arthur Oliveira de Lima | 211062320 | 14h | @zlimaz |
-| Mariiana Siqueira Neris | 211062796 | 14h | @Maryyscreuza |
+| Mariana Siqueira Neris | 211062796 | 14h | @Maryyscreuza |
 | Antônio Lucas De Araujo Lima | 241025597 | 14h | @Devv-Antonio |
 | Fábio Santos Araújo | 222022082 | 14h | @fabiofonteles1 |
 | João Pedro Silva Sousa | 222006258 | 14h | @JoaoPedrooSS |
 | Daniel Ferreira Santos Rabelo | 222006632 | 14h | @DanielFsR |
 
 - **Nome do projeto:** Jardim de Luz
-- **Nome do grupo:** [definir nome único do grupo]
+- **Nome do grupo:** Grupo 02
 - **Repositório:** https://github.com/Devv-Antonio/jardim-de-luz
-- **Commit ou tag entregue:** v0.1.2
+- **Commit ou tag entregue:** v0.2.0
 - **Ponto de partida:** remix original
 - **Slides da apresentação oral:** não há
 
-Os dados dos seis integrantes foram atualizados com a lista confirmada pelo responsável. Todos são da turma das 14h. A tag identifica esta versão de desenvolvimento, ainda com pendências acadêmicas. Depois de preencher e revisar tudo, atualizar a revisão entregue e criar uma nova tag no repositório do Classroom.
+Os dados dos seis integrantes foram atualizados com a lista confirmada pelo responsável. Todos são da turma das 14h. A tag identifica a versão consolidada deste repositório. Antes da submissão, o grupo deve confirmar a execução das responsabilidades, revisar o relatório e indicar a versão correspondente no repositório do Classroom.
 
 ## 2. Resumo
 
@@ -243,7 +243,7 @@ A métrica original do professor contabilizou 149 linhas não vazias em Prolog, 
 
 As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg` vieram da aplicação em execução, não de um mockup. A interface foi inspecionada no viewport estreito padrão e em 1280×1100. O roteiro manual distingue cenários já verificados dos que o grupo deve repetir.
 
-**Validador da entrega:** a identificação dos seis integrantes está preenchida. Permanecem pendentes o nome do grupo e as contribuições reais de cada integrante, que precisam ser confirmados pelo grupo. O validador deve apontá-los; esta versão não é uma entrega acadêmica final. A revisão de autoria real e da participação na apresentação depende do grupo. Os scripts originais de validação não foram enfraquecidos.
+**Validador da entrega:** identificação, nome Grupo 02 e divisão de responsabilidades estão preenchidos. A validação automática confere a forma do documento, não comprova a execução das responsabilidades nem substitui a revisão do grupo. A revisão de autoria real, a reflexão individual e a participação na apresentação continuam sob responsabilidade dos integrantes. Os scripts originais de validação foram preservados.
 
 ## 9. Limitações e problemas conhecidos
 
@@ -258,16 +258,16 @@ As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg`
 
 ## 10. Contribuição de cada integrante
 
-Esta tabela deve registrar trabalho efetivo, acordado por todos, depois da revisão e estudo. Não foi fabricado histórico de autoria. A implementação inicial e a documentação foram geradas com Codex a pedido de Antônio; isso não prova contribuição técnica individual dos colegas.
+A divisão abaixo foi definida pelo responsável do Grupo 02 nesta revisão. Ela registra responsabilidades de desenvolvimento e revisão, não uma comprovação de que cada atribuição já foi executada. A implementação inicial foi produzida com Codex sob orientação de Antônio; o trabalho efetivamente realizado por cada integrante deve ser confirmado pelo grupo e refletido nos commits e nas avaliações individuais. Não foi fabricado histórico de autoria.
 
 | Integrante | Principais contribuições |
 |---|---|
-| Miguel Arthur Oliveira de Lima | [informar contribuições reais de Miguel] |
-| Mariiana Siqueira Neris | [informar contribuições reais de Mary] |
-| Antônio Lucas De Araujo Lima | Solicitou e definiu a orientação do projeto com IA; informou a equipe e autorizou o repositório. [completar revisão e trabalho técnico efetivamente realizado] |
-| Fábio Santos Araújo | [informar contribuições reais de Fábio] |
-| João Pedro Silva Sousa | [informar contribuições reais de João] |
-| Daniel Ferreira Santos Rabelo | [informar contribuições reais de Daniel] |
+| Miguel Arthur Oliveira de Lima | Responsável pela lógica Prolog: restrições, geração de jogos, unicidade e dicas. |
+| Mariana Siqueira Neris | Responsável pela documentação: README, relatório, referências e organização do material de apresentação. |
+| Antônio Lucas De Araujo Lima | Organização geral do projeto, definição do escopo, coordenação da equipe e administração do repositório e da entrega. |
+| Fábio Santos Araújo | Responsável pelo backend: rotas FastAPI, validação dos pedidos e integração JSON com o Prolog. |
+| João Pedro Silva Sousa | Responsável pelo frontend Elm: modelo, mensagens, interface e comunicação com a API. |
+| Daniel Ferreira Santos Rabelo | Responsável por testes, validação, reprodução do ambiente e integração contínua. |
 
 Cada integrante deverá entregar individualmente `avaliacao-360/<matricula>.md` no seu repositório privado do Classroom. O template foi preservado; nenhuma nota ou distribuição de esforço foi inventada nem publicada neste repositório do grupo.
 
@@ -310,7 +310,7 @@ A rubrica desloca o ajuste de escopo em −0,5 com IA intensiva. Para a faixa pr
 | Parte | Duração | Quem apresenta |
 |---|:---:|---|
 | Contexto, objetivo e regras | 2 min | Miguel Arthur Oliveira de Lima |
-| Demonstração: jogar, conflito e desfazer | 2 min | Mariiana Siqueira Neris |
+| Demonstração: jogar, conflito e desfazer | 2 min | Mariana Siqueira Neris |
 | Demonstração: dica e solução | 2 min | Antônio Lucas De Araujo Lima |
 | Código Prolog: CLP(FD), energia e geração | 3 min | Fábio Santos Araújo |
 | Código Elm: tipos, update, HTTP e histórico | 3 min | João Pedro Silva Sousa |
