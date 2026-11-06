@@ -109,3 +109,7 @@ Faça-os num ramo próprio, sem alterar silenciosamente o que está sendo entreg
 - Explique por que aumentar de 6×6 para 12×12 exige revisar a enumeração e não apenas trocar um número.
 
 Todos devem saber localizar os testes que sustentam cada resposta. Registrem na seção 13 do relatório o que realmente aprenderam ou mudaram, com exemplos próprios.
+
+## Leitura complementar da UnB
+
+Veja `REFERENCIAS-UNB.md` para os trabalhos de Coutinho e Ribeiro (2023) e Brandão (2021). Para discutir em grupo: como uma partida ajuda a mostrar os conceitos do código? Que diferença existe entre motivar uma explicação com um jogo e demonstrar que ele melhora a aprendizagem? Relacione a segunda referência ao uso de funções e composição, sem confundir os testes do projeto com uma prova formal de correção.

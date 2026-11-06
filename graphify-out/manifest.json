@@ -108,15 +108,15 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1793979245.4219053,
-    "seen": 1793979449.464191,
-    "ast_hash": "05618b8d6884022a5f83d0c2d80b3326",
+    "mtime": 1793986197.7295434,
+    "seen": 1793986211.673055,
+    "ast_hash": "db01b172d610c44597309edd0f90abcc",
     "semantic_hash": ""
   },
   "RELATORIO.md": {
-    "mtime": 1793979391.3318067,
-    "seen": 1793979449.464191,
-    "ast_hash": "edd0e6dd052ea1904cd944bbb98f0b82",
+    "mtime": 1793986197.737579,
+    "seen": 1793986211.673055,
+    "ast_hash": "2b3c090672522ee05d64794e938144cc",
     "semantic_hash": ""
   },
   "avaliacao-360/TEMPLATE.md": {
@@ -138,9 +138,9 @@
     "semantic_hash": ""
   },
   "docs/GUIA-DE-ESTUDO.md": {
-    "mtime": 1793979082.5745673,
-    "seen": 1793979163.41758,
-    "ast_hash": "4fab2a12bbe72d73619b10e9ba85f4f7",
+    "mtime": 1793986197.749231,
+    "seen": 1793986211.673055,
+    "ast_hash": "84b800bf1c4235676e502d0b43a090d1",
     "semantic_hash": ""
   },
   "docs/ORIGEM.md": {
@@ -183,6 +183,12 @@
     "mtime": 1793978673.79127,
     "seen": 1793979163.41758,
     "ast_hash": "812fab565a309681c7ae90db0e4f98a6",
+    "semantic_hash": ""
+  },
+  "docs/REFERENCIAS-UNB.md": {
+    "mtime": 1793986197.749231,
+    "seen": 1793986211.673055,
+    "ast_hash": "bf49bd68980fb49edbe538753b66e257",
     "semantic_hash": ""
   },
   "frontend/package-lock.json": {

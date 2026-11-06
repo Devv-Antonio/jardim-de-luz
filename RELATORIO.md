@@ -14,7 +14,7 @@
 - **Nome do projeto:** Jardim de Luz
 - **Nome do grupo:** [definir nome único do grupo]
 - **Repositório:** https://github.com/Devv-Antonio/jardim-de-luz
-- **Commit ou tag entregue:** v0.1.0
+- **Commit ou tag entregue:** v0.1.1
 - **Ponto de partida:** remix original
 - **Slides da apresentação oral:** não há
 
@@ -285,6 +285,13 @@ Cada integrante deverá entregar individualmente `avaliacao-360/<matricula>.md` 
 - FastAPI e modelos Pydantic: https://fastapi.tiangolo.com/tutorial/body/
 - Vite: https://vite.dev/guide/
 
+**Trabalhos da UnB consultados nesta revisão.**
+
+- COUTINHO, Lucas Amoêdo de Victor; RIBEIRO, Vitor Nere Araújo. *Enpyre: uma plataforma web interativa e lúdica para o ensino de Python*. TCC, Engenharia de Software, UnB, 2023. [Registro institucional](https://bdm.unb.br/handle/10483/39155).
+- BRANDÃO, Caio Albuquerque. *Sobre a confluência do cálculo λx na representação nominal*. TCC, Ciência da Computação, UnB, 2021. [Registro institucional](https://www.bdm.unb.br/handle/10483/31230?mode=full).
+
+O primeiro trabalho apoia a contextualização de jogos no ensino; o segundo situa fundamentos da programação funcional. A aplicação desses temas ao Jardim de Luz é uma interpretação desta revisão documental. Não foram copiados código ou resultados; não reivindicamos eficácia pedagógica avaliada nem uma prova formal do jogo. O material efetivamente consultado e as limitações estão em `docs/REFERENCIAS-UNB.md`. Acesso às referências em 6 nov. 2026.
+
 **Uso de ferramentas de IA.**
 
 - **Faixa de uso no código:** intensivo
@@ -318,4 +325,3 @@ Reflexão técnica preparada com IA para revisão do grupo, não relato de exper
 No Elm, o ganho central está nas fronteiras e na representação das fases: `Waiting Operation Game` preserva os dados durante o efeito e `Result` obriga a decidir o que fazer quando ele falha. O histórico é uma lista de valores anteriores, sem a necessidade de desfazer mutações. A compilação confirmou que os módulos e suas assinaturas estão coerentes; não houve uma refatoração guiada por erro de tipos registrada nesta sessão, então não reivindicamos essa evidência. Ao adicionar uma nova origem de célula, o `case` exaustivo de `Garden.value` seria um ponto em que o compilador exigiria atualização; o ramo genérico em `update` não oferece essa mesma garantia para toda nova combinação de mensagem e estado.
 
 A diferença prática é que o Prolog descreve o espaço de soluções possíveis, enquanto o Elm transforma um estado conhecido em outro e descreve os efeitos a executar. Python só transporta dados entre essas duas responsabilidades. O grupo ainda precisa acrescentar suas próprias observações, após estudar e modificar o projeto, para transformar esta análise técnica em reflexão de aprendizagem efetiva.
-

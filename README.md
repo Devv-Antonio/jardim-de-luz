@@ -163,11 +163,18 @@ avaliacao-360/TEMPLATE.md modelo individual original, preservado
 scripts/                  ferramentas originais do professor
 ```
 
+## Referências acadêmicas da UnB
+
+- [Enpyre: uma plataforma web interativa e lúdica para o ensino de Python](https://bdm.unb.br/handle/10483/39155), de Coutinho e Ribeiro (2023).
+- [Sobre a confluência do cálculo λx na representação nominal](https://www.bdm.unb.br/handle/10483/31230?mode=full), de Brandão (2021).
+
+A [nota de referências](docs/REFERENCIAS-UNB.md) registra os trechos consultados, a relação com o projeto e os limites dessa comparação. São referências acadêmicas incorporadas nesta revisão documental.
+
 ## Entrega e autoria
 
 A faixa proposta é **remix original**: posicionamento de N-rainhas combinado à seleção de casas por energia e um alvo de soma exata. A confirmação da faixa cabe ao professor. Não reivindicamos exclusividade mundial para essa combinação.
 
-Este projeto foi desenvolvido com **uso intensivo de IA (Codex)**. O template e as regras de avaliação vêm de [fabiommendes/paradigmas-trabalho-final](https://github.com/fabiommendes/paradigmas-trabalho-final), revisão `8454eea9bd08b9ef5e3b0538532d18a23174a93c`. A origem, os arquivos reaproveitados e o que foi reescrito estão declarados na seção 11 do relatório e em [docs/ORIGEM.md](docs/ORIGEM.md). A arquitetura foi adaptada; o domínio Sudoku foi substituído.
+Este projeto foi desenvolvido com **auxílio de IA (Codex)**. O escopo dessa participação está detalhado na seção 11 do relatório, conforme a classificação exigida pelo professor. O template e as regras de avaliação vêm de [fabiommendes/paradigmas-trabalho-final](https://github.com/fabiommendes/paradigmas-trabalho-final), revisão `8454eea9bd08b9ef5e3b0538532d18a23174a93c`. A origem, os arquivos reaproveitados e o que foi reescrito estão declarados na seção 11 do relatório e em [docs/ORIGEM.md](docs/ORIGEM.md). A arquitetura foi adaptada; o domínio Sudoku foi substituído.
 
 **Antes da entrega:** preencher os dados acadêmicos reais, revisar contribuições, estudar o código, ensaiar os 15 minutos, publicar no Classroom e cada aluno entregar sua própria avaliação 360. Execute `uv run scripts/validar_entrega.py` e corrija todos os erros. O relatório conserva campos pendentes intencionais enquanto faltam os dados do grupo; não os substitua por informações fictícias.
 
