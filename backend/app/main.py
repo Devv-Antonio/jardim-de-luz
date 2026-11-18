@@ -1,10 +1,19 @@
 """Validação HTTP; as decisões do jogo pertencem ao Prolog."""
+from subprocess import TimeoutExpired
 from typing import Annotated, Literal
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel, ConfigDict, Field
 from app import prolog
 
 app = FastAPI(title="Jardim de Luz", version="1.0.0")
+
+@app.exception_handler(TimeoutExpired)
+async def prolog_timeout(_request, _exception):
+    return JSONResponse(status_code=504, content={
+        "detail": "O Prolog demorou a responder. Tente novamente."
+    })
+
 Column = Annotated[int, Field(strict=True, ge=0, le=6)]
 Board = Annotated[list[Column], Field(min_length=6, max_length=6)]
 Energy = Annotated[int, Field(strict=True, ge=1, le=9)]

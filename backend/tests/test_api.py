@@ -1,7 +1,9 @@
-"""Contrato HTTP real, incluindo a ponte Janus (sem mocks do Prolog)."""
+"""Integração com Prolog real; timeout simulado apenas nos testes de falha."""
+import subprocess
 import pytest
 from fastapi.testclient import TestClient
 from app.main import app
+from app import prolog
 
 client = TestClient(app)
 ZERO = [0] * 6
@@ -66,3 +68,20 @@ def test_invalid_difficulty():
 
 def test_missing_fields():
     assert client.post('/api/solve', json={}).status_code == 422
+
+
+@pytest.mark.parametrize('route', ['generate', 'solve', 'hint'])
+def test_prolog_timeout(route, monkeypatch):
+    def timeout(command, **kwargs):
+        assert kwargs['timeout'] == 10
+        raise subprocess.TimeoutExpired(command, kwargs['timeout'])
+
+    with monkeypatch.context() as patch:
+        patch.setattr(prolog.subprocess, 'run', timeout)
+        payload = {'difficulty': 'medium'} if route == 'generate' else puzzle()
+        response = client.post('/api/' + route, json=payload)
+
+    assert response.status_code == 504
+    assert response.json() == {'detail': 'O Prolog demorou a responder. Tente novamente.'}
+    # A falha não altera o estado do servidor nem impede o próximo pedido.
+    assert client.post('/api/solve', json=puzzle()).json() == {'board': SOLUTION}
