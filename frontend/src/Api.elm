@@ -123,7 +123,9 @@ post route body decoder toMsg =
         , headers = []
         , url = "/api/" ++ route
         , body = Http.jsonBody body
-        , timeout = Just 10000
+
+        -- Margem para receber o HTTP 504 após o limite de 10 s do Prolog.
+        , timeout = Just 15000
         , tracker = Nothing
         , expect =
             Http.expectStringResponse toMsg
