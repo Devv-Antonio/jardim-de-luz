@@ -10,6 +10,8 @@ Um quebra-cabeça de posicionamento e energia, construído para o trabalho final
 
 [Como jogar](#como-jogar) · [Executar](#executar) · [Testes](#testes) · [Relatório](RELATORIO.md) · [Guia de estudo](docs/GUIA-DE-ESTUDO.md) · [Checklist de entrega](docs/ENTREGA.md)
 
+A [revisão de 18/11/2026](docs/REVISAO-ENTREGA.md) compara os seis critérios com as evidências atuais e lista as pendências para submissão.
+
 ## Como jogar
 
 Coloque **seis lanternas** num jardim 6×6. Cada casa tem uma energia de 1 a 9.
@@ -121,7 +123,7 @@ Ou `make test` e `make build`. A integração contínua em `.github/workflows/ci
 | Camada | Verificações locais |
 |---|---|
 | Prolog | 17 testes plunit; quatro soluções de N-rainhas; energia; conflitos; pistas; dicas; geração de 60 jardins nos três níveis |
-| API | 30 casos pytest com Prolog real, incluindo JSON inválido, campos extras, tipos estritos e respostas 422 |
+| API | 33 casos pytest: 30 de integração com Prolog real e 3 de timeout simulado, incluindo recuperação após a falha |
 | Elm | 17 verificações do domínio e dos decoders, compiladas pelo Elm e executadas no Node, sem framework adicional |
 | Qualidade | Elm formatado, build otimizado e auditoria npm sem vulnerabilidades na verificação local |
 
@@ -138,6 +140,8 @@ Um tabuleiro é uma lista de **seis colunas**, uma por linha: `0` significa vazi
 | `POST /api/hint` | Puzzle + `board` | `{"row":0,"column":2,"forced":true}` |
 
 `row` começa em zero; `column` vai de 1 a 6. Erros de formato, jogos impossíveis e dicas em jogos completos retornam **422**. O jogador não consegue sobrescrever pistas: o servidor aplica `givens` independentemente de `board`. As rotas de solução e dica respeitam as jogadas atuais.
+
+O processo Prolog tem limite de **10 segundos**; ao excedê-lo, a API retorna **504** com uma mensagem para tentar novamente. O cliente aguarda até **15 segundos**, permitindo receber essa resposta antes de seu próprio timeout. O job de CI tem limite de **15 minutos**.
 
 ## Mapa do projeto
 

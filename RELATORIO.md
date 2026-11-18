@@ -14,7 +14,7 @@
 - **Nome do projeto:** Jardim de Luz
 - **Nome do grupo:** Grupo 02
 - **Repositório:** https://github.com/Devv-Antonio/jardim-de-luz
-- **Commit ou tag entregue:** v0.2.1
+- **Commit ou tag entregue:** v0.2.2
 - **Ponto de partida:** remix original
 - **Slides da apresentação oral:** não há
 
@@ -222,11 +222,13 @@ Uma ação que não muda o tabuleiro, como tentar alterar pista, não adiciona h
 
 Python valida dimensões, intervalos, inteiros estritos e campos extras com Pydantic. Ele inicia `swipl` sem shell, envia JSON por stdin e interpreta JSON de stdout. `bridge.pl` converte o protocolo para chamadas do domínio. Um processo por pedido não compartilha estado mutável com outra partida. Tabuleiro impossível e dica em tabuleiro completo viram 422 com mensagem em português.
 
-O processo tem timeout de 10 segundos. Falhas de infraestrutura, como `swipl` ausente, retornam erro do servidor; não equivalem a um puzzle matematicamente impossível. O cliente conserva o jogo em caso de erro e oferece nova tentativa. O serviço foi projetado para uso local; não há autenticação nem persistência no backend.
+O processo tem timeout de 10 segundos. Ao exceder esse limite, a API retorna HTTP 504 com mensagem em português; o cliente aguarda até 15 segundos para receber a resposta. Falhas de infraestrutura, como `swipl` ausente, retornam erro do servidor; não equivalem a um puzzle matematicamente impossível. O cliente conserva o jogo em caso de erro e oferece nova tentativa. O serviço foi projetado para uso local; não há autenticação nem persistência no backend.
 
 ## 8. Testes e validação
 
-Verificações locais em 06/11/2026:
+Revisão local em **18/11/2026**: 17 testes plunit, 33 casos pytest (30 de integração e 3 com timeout simulado), 17 verificações Elm, build de produção e validador passaram. Os três testes novos cobrem HTTP 504 nas rotas de geração, solução e dica e uma solução bem-sucedida após cada falha. Os três arquivos Prolog carregaram sem avisos. A formatação foi aplicada após o ajuste de timeout. A métrica original atualizada contou 149 linhas Prolog, 599 Elm e 151 Python (16,8%). A rubrica local é igual ao conteúdo oficial consultado nesta data, normalizando quebras de linha. Evidências e pendências em `docs/REVISAO-ENTREGA.md`.
+
+Verificações anteriores em 06/11/2026 (auditoria npm e navegador não repetidos em 18/11):
 
 | Camada | Resultado | Casos cobertos |
 |---|---|---|
@@ -258,7 +260,9 @@ As capturas `docs/captura.jpg`, `docs/captura-mobile.jpg` e `docs/resolvido.jpg`
 
 ## 10. Contribuição de cada integrante
 
-A divisão abaixo foi definida pelo responsável do Grupo 02 nesta revisão. Ela registra responsabilidades de desenvolvimento e revisão, não uma comprovação de que cada atribuição já foi executada. A implementação inicial foi produzida com Codex sob orientação de Antônio; o trabalho efetivamente realizado por cada integrante deve ser confirmado pelo grupo e refletido nos commits e nas avaliações individuais. Não foi fabricado histórico de autoria.
+A divisão abaixo foi definida pelo responsável do Grupo 02 nesta revisão. Ela registra responsabilidades de desenvolvimento e revisão, não uma comprovação de que cada atribuição já foi executada. A implementação inicial foi produzida com Codex sob orientação de Antônio; o trabalho efetivamente realizado por cada integrante deve ser confirmado pelo grupo e refletido nos commits e nas avaliações individuais.
+
+Em 18/11, o responsável solicitou três blocos de revisão em duplas, com autor e `Co-authored-by`: Miguel Arthur + Fabio Fonteles (timeout e testes da API), Joao Pedro + Daniel Ferreira (cliente Elm e limite do CI), Mariiana Siqueira Neris + Antônio Lucas (rubrica, relatório, checklist e grafo). As alterações foram executadas por Codex e as identidades Git foram fornecidas pelo responsável; esses metadados não comprovam revisão humana individual e não reatribuem a implementação anterior. Os nomes Git informados podem diferir dos nomes acadêmicos acima.
 
 | Integrante | Principais contribuições |
 |---|---|
@@ -299,6 +303,7 @@ O primeiro trabalho apoia a contextualização de jogos no ensino; o segundo sit
 | Ferramenta | Para que foi usada | Como o grupo verificou o resultado |
 |---|---|---|
 | Codex, da OpenAI | Leitura do material, proposta da combinação de regras, implementação Prolog/Elm/Python, testes, correções, documentação e preparação do repositório | Nesta sessão, o agente executou plunit, pytest, verificações Elm, formatação, build e inspeção no navegador. A revisão humana e a compreensão de cada integrante permanecem pendentes; não as declaramos como concluídas. |
+| Codex, da OpenAI — revisão de 18/11/2026 | Comparação com a rubrica oficial, tratamento de timeout HTTP, margem do cliente, limite de CI e preparação de commits em duplas a pedido do responsável | Testes Prolog/API/Elm, build, validador e carregamento Prolog executados pelo agente; formatação aplicada. Não foram repetidos o percurso no navegador nem a auditoria npm. A validação humana continua pendente. |
 
 A rubrica desloca o ajuste de escopo em −0,5 com IA intensiva. Para a faixa proposta de remix original, isso leva Δ de +0,5 a 0, sujeito à confirmação do professor. Não há promessa de bônus ou nota; compreensão individual e apresentação continuam sendo avaliadas.
 

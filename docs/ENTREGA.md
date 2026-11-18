@@ -4,6 +4,8 @@
 
 O sistema foi desenvolvido, compilado e testado. O Grupo 02 está identificado e a divisão de responsabilidades foi registrada. A configuração técnica e a validação de forma não substituem a confirmação do trabalho realizado por cada integrante, a revisão humana, a apresentação e a entrega no Classroom.
 
+Consulte a [matriz de critérios e evidências de 18/11/2026](REVISAO-ENTREGA.md). A revisão acrescenta resposta HTTP 504 para timeout do Prolog, margem no cliente e limite no CI. Commits em duplas preparados com Codex não substituem a revisão pessoal dos integrantes.
+
 ## O que vocês precisam completar
 
 - [x] Atualizar nomes completos, matrículas e usuários GitHub dos seis integrantes com a lista confirmada pelo responsável.
@@ -16,7 +18,8 @@ O sistema foi desenvolvido, compilado e testado. O Grupo 02 está identificado e
 - [ ] Atualizar a URL e a revisão entregue no relatório para o repositório correto do Classroom.
 - [ ] Executar instalação numa máquina limpa independente e guardar o resultado.
 - [x] Configurar integração contínua com testes, formatação, build e validador de entrega.
-- [x] Consolidar a revisão técnica em `v0.2.1`, com a mesma versão indicada no relatório, e manter somente essa tag no repositório pessoal.
+- [x] Preservar `v0.2.1` como versão anterior; indicar `v0.2.2` para os novos blocos de revisão, sem sobrescrever a tag antiga.
+- [ ] Conferir a execução verde do CI no GitHub para a revisão final; configurar workflow não comprova sucesso.
 - [ ] Enviar a revisão efetivamente entregue e sua tag ao repositório do Classroom.
 - [ ] Ensaiar o roteiro de 14 minutos. Todos falam e devem conseguir explicar Prolog e Elm.
 - [ ] Se optarem por slides, colocar o arquivo no repositório e ajustar as seções 1 e 12. Slides são opcionais; a demonstração é necessária.
@@ -46,7 +49,7 @@ make build
 make validar
 git status
 git push origin main
-git push origin v0.2.1
+git push origin v0.2.2
 ```
 
-Sem Make, use os comandos equivalentes do README. A tag `v0.2.1` identifica a versão consolidada. Não a recrie nem sobrescreva: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. As tags anteriores foram removidas do repositório pessoal conforme solicitação do responsável; seus commits permanecem no histórico.
+Sem Make, use os comandos equivalentes do README. A tag `v0.2.2` identifica esta revisão; `v0.2.1` permanece como versão anterior. Não recrie nem sobrescreva tags: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. Confirme que a tag existe e aponta para o commit completo antes da submissão ao Classroom.
