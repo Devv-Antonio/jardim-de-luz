@@ -18,7 +18,7 @@ Consulte a [matriz de critérios e evidências de 18/11/2026](REVISAO-ENTREGA.md
 - [ ] Atualizar a URL e a revisão entregue no relatório para o repositório correto do Classroom.
 - [ ] Executar instalação numa máquina limpa independente e guardar o resultado.
 - [x] Configurar integração contínua com testes, formatação, build e validador de entrega.
-- [x] Preservar `v0.2.1` como versão anterior; indicar `v0.2.2` para os novos blocos de revisão, sem sobrescrever a tag antiga.
+- [x] Indicar `v0.2.3` para a revisão completa, incluindo os commits das três duplas. Por solicitação do responsável, manter somente a tag mais recente no repositório pessoal; os commits anteriores permanecem no histórico.
 - [ ] Conferir a execução verde do CI no GitHub para a revisão final; configurar workflow não comprova sucesso.
 - [ ] Enviar a revisão efetivamente entregue e sua tag ao repositório do Classroom.
 - [ ] Ensaiar o roteiro de 14 minutos. Todos falam e devem conseguir explicar Prolog e Elm.
@@ -49,7 +49,7 @@ make build
 make validar
 git status
 git push origin main
-git push origin v0.2.2
+git push origin v0.2.3
 ```
 
-Sem Make, use os comandos equivalentes do README. A tag `v0.2.2` identifica esta revisão; `v0.2.1` permanece como versão anterior. Não recrie nem sobrescreva tags: se o código ou o relatório mudar, use uma versão nova e atualize a identificação. Confirme que a tag existe e aponta para o commit completo antes da submissão ao Classroom.
+Sem Make, use os comandos equivalentes do README. A tag `v0.2.3` identifica esta revisão completa. As tags desatualizadas `v0.2.1` e `v0.2.2` são removidas por solicitação do responsável após publicar a mais recente; seus commits continuam no histórico. Confirme que a tag existe e aponta para o commit completo antes da submissão ao Classroom.

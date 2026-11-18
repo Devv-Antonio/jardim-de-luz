@@ -37,7 +37,7 @@ A auditoria npm e o percurso no navegador documentados anteriormente são de 06/
 3. Instalar a partir dos locks em uma máquina limpa, executar os comandos da seção 3 e guardar os resultados. Repetir a demonstração de `docs/TESTE-MANUAL.md` após as correções.
 4. Conferir o CI verde para o commit final no GitHub. Corrigir falhas antes de indicar a revisão entregue.
 5. Aceitar a atividade de grupo do GitHub Classroom e publicar lá código e relatório. O repositório pessoal não substitui essa entrega. A URL do Classroom ainda não foi fornecida nesta revisão.
-6. Atualizar a URL e o commit/tag no relatório para a revisão efetivamente submetida. Preservar tags anteriores; qualquer alteração posterior exige nova revisão identificável.
+6. Atualizar a URL e o commit/tag no relatório para a revisão efetivamente submetida. A revisão completa é `v0.2.3`; por solicitação do responsável, somente a tag mais recente fica no repositório pessoal. Qualquer alteração posterior exige nova revisão identificável.
 7. Ensaiar até 15 minutos, com todos falando, demonstração funcional e explicação de código Prolog e Elm. Slides são opcionais.
 8. Cada um dos seis alunos preencher a própria avaliação 360: identificação, notas, comentários e distribuição de esforço que some 100%, conforme o template; validar e enviar ao repositório individual privado do Classroom. Não publicar avaliações no repositório de grupo.
 9. Manter a origem de todo reaproveitamento e a declaração de IA intensiva. Esta revisão também usa IA e está registrada na seção 11.
